@@ -1,9 +1,10 @@
 import React from "react";
+import imgme from '../img/yo.jpeg';
 
 export const About = () => {
   return (
     <div className="container">
-      <h3 className="text-center text-uppercase py-4">About us</h3>
+      <h3 className="text-center text-uppercase py-4">About me</h3>
       <div className="text-center border border-Dark p-4 fst-italic">
         <p>
           Estudiante de ingeniería de sistemas, destacado por mi actitud
@@ -28,6 +29,53 @@ export const About = () => {
           • Fundamentos de Ingeniería de Software - mayo 2020
         </p>
       </div>
-    </div>
+     
+      <div className="row border border-Dark mt-4 mb-4 ">
+        <div className="col-md-4">
+           <div className="card mt-4">
+        <img src={imgme} alt=""/>
+        <div className="card-body"></div>
+      <h1 className="card-title">juan esteban cubillos g.</h1>
+      <p className="card-text text-secondary">
+        iddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+        dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+        ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+        dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+
+      </p>
+      </div>
+      </div>
+      <div className="col-md-4 pt-1">
+           <div className="card mt-4">
+        <div className="card-body"></div>
+      <h1 className="card-title">juan esteban cubillos g.</h1>
+      <p className="card-text text-secondary">
+        iddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+        dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+        ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+        dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+
+      </p>
+      </div>
+      </div>
+      <div className="col-md-4">
+           <div className="card mt-4">
+        <div className="card-body"></div>
+      <h1 className="card-title">juan esteban cubillos g.</h1>
+      <p className="card-text text-secondary">
+        iddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+        dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+        ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+        dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+
+      </p>
+      </div>
+      </div>
+   
+      </div>
+      
+      </div>
+      
+
   );
 };
