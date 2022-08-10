@@ -19,8 +19,8 @@ export const Api = () => {
       </h1>
       <ul className="m-4">
         {Api.map((task) => (
-          <li key={task.id} className="mb-2">
-            {task.title}
+          <li key={task.id} className="mb-2 ms-3">
+            {task.title}{task.completed ?'✅':'❌'}
           </li>
         ))}
       </ul>
