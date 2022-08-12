@@ -2,10 +2,11 @@ import React from "react";
 import {} from "@fortawesome/free-solid-svg-icons";
 import { AiOutlineMail, AiFillGithub } from "react-icons/ai";
 import { BsPhoneFill } from "react-icons/bs";
+import './Footer.css';
 export const Footer = () => {
   return (
     <div
-      className="container-fluid  bg-secondary bg-gradient text-white "
+      className="fo container-fluid  bg-secondary bg-gradient text-white "
       style={{ minHeight: "12rm" }}
     >
       <div className="container pt-3 pb-3">

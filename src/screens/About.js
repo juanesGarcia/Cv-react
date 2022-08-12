@@ -37,17 +37,13 @@ export const About = () => {
         <div className="row  mt-4 mb-4 ">
           <div className="col-md-4 mx-auto">
             <div className="card mt-4">
-              <div className="mx-auto" >
+              <div className="mx-auto " >
                   <img
                 src={imgme}
                 alt=""
-                className="img-fluid rounded-circle"
-                width={300}
-                height={200}
+                className="img-fluid img-thumbnail"
               />
               </div>
-            
-              <div className="card-body"></div>
               <h1 className="card-title border bordert-dark">Juan Esteban Cubillos Garcia</h1>
               <p className="card-text text-secondary">
                 Estudiante de la Universidad del Magdalena
