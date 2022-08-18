@@ -1,11 +1,12 @@
 import React from 'react'
 import { NavLink,Link } from 'react-router-dom';
+import { AiFillHome } from "react-icons/ai";
 export const NavBar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-secondary">
   <div className="container-fluid">
-    <NavLink className="navbar-brand text-white" to="/">Inicio</NavLink>
+    <NavLink className="navbar-brand text-white" to="/"><AiFillHome className='mb-1 ms-3 me-1'></AiFillHome> Inicio</NavLink>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -19,6 +20,9 @@ export const NavBar = () => {
         </li>
         <li className="nav-item">
           <NavLink className="nav-link text-white" aria-current="page" to="/Api">Uso Api</NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink className="nav-link text-white" aria-current="page" to="/Login">Login</NavLink>
         </li>
      
       </ul>

@@ -6,9 +6,10 @@ import { Contact } from "./screens/Contact";
 import { Home } from "./screens/Home";
 import { Api } from "./screens/Api";
 import  Footer from "./components/Footer";
+import  Login  from "./screens/Login";
 
 function App() {
-
+ 
   return (
     <div>
       <Router>
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/About" element={<About />}></Route>
           <Route exact path="/Contact" element={<Contact />}></Route>
           <Route exact path="/Api" element={<Api/>}></Route>
+          <Route exact path="/Login" element={<Login/>}></Route>
         </Routes>
       </Router>
       <Footer></Footer>

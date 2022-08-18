@@ -6,7 +6,7 @@ import './Footer.css';
 export const Footer = () => {
   return (
     <div
-      className="fo container-fluid  bg-secondary bg-gradient text-white "
+      className="fo container-fluid  bg-secondary bg-gradient text-white d-flex justify-content-end"
       style={{ minHeight: "12rm" }}
     >
       <div className="container pt-3 pb-3">
@@ -32,8 +32,8 @@ export const Footer = () => {
               +57 3186699925
             </div>
           </div>
-          <div className="col">Column</div>
-          <div className="col">Column</div>
+          <div className="col"></div>
+          <div className="col"></div>
         </div>
       </div>
     </div>
