@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useState } from "react";
+import {TaskContext} from "../context/TaskContext";
 
-export const ApiForm = ({ createUser }) => {
+export const ApiForm = () => {
   const [user, setUser] = useState("");
   const [city, setCity] = useState("");
+  const {createUser}= useContext(TaskContext);
 
   const handlesubmit = (e) => {
     e.preventDefault();
@@ -33,23 +35,23 @@ export const ApiForm = ({ createUser }) => {
             autoFocus
           />
         </div>
-        <div className="m-4">
+        <div className="ms-4 mp-4 mt-4 me-4">
           <label htmlFor="exampleFormControlTextarea1" className="form-label">
             Cuidad:
           </label>
-          <textarea
-            className="form-control"
+          <input
+            type="text"
+            className="form-control "
             id="exampleFormControlTextarea1"
-            rows="3"
             placeholder="escribe tu cuidad"
             value={city}
             onChange={(e) => {
               setCity(e.target.value);
             }}
-          ></textarea>
+          ></input>
         </div>
         <button type="submit" className="btn btn-dark m-4">
-          Submit
+          Enviar
         </button>
       </form>
     </div>
