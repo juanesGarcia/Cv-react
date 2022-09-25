@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/juanesGarcia/Programa-react/static/css/main.ef625fcd.css",
-    "main.js": "/juanesGarcia/Programa-react/static/js/main.edbc88b5.js",
-    "static/media/yo.jpeg": "/juanesGarcia/Programa-react/static/media/yo.883e6af5c77796e338bb.jpeg",
-    "index.html": "/juanesGarcia/Programa-react/index.html",
-    "main.ef625fcd.css.map": "/juanesGarcia/Programa-react/static/css/main.ef625fcd.css.map",
-    "main.edbc88b5.js.map": "/juanesGarcia/Programa-react/static/js/main.edbc88b5.js.map"
+    "main.css": "/Programa-react/static/css/main.ef625fcd.css",
+    "main.js": "/Programa-react/static/js/main.71f82a0a.js",
+    "static/media/yo.jpeg": "/Programa-react/static/media/yo.883e6af5c77796e338bb.jpeg",
+    "index.html": "/Programa-react/index.html",
+    "main.ef625fcd.css.map": "/Programa-react/static/css/main.ef625fcd.css.map",
+    "main.71f82a0a.js.map": "/Programa-react/static/js/main.71f82a0a.js.map"
   },
   "entrypoints": [
     "static/css/main.ef625fcd.css",
-    "static/js/main.edbc88b5.js"
+    "static/js/main.71f82a0a.js"
   ]
 }
