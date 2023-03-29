@@ -73,7 +73,7 @@ export const Contact = () => {
           </div>
           <div className="pb-4 mt-4 d-grid">
             <button type="submit" className="btn btn-secondary">
-              Submit
+              Enviar
             </button>
           </div>
         </form>

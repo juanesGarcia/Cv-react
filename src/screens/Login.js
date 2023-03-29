@@ -9,7 +9,7 @@ class Login extends Component {
 render(){   
     return (
     <div className="containerL ">
-      <img src={logo}/>
+      <img src={logo} alt="logo react"/>
       <form onSubmit={this.manejarsubmit}>
   <div className="mb-3">
     <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
@@ -23,7 +23,7 @@ render(){
     <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
     <label className="form-check-label" htmlFor="exampleCheck1">Check me out</label>
   </div>
-  <button type="submit" className="btn btn-primary">Submit</button>
+  <button type="submit" className="btn btn-dark">Enviar</button>
 </form>
     
     </div>

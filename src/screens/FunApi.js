@@ -1,6 +1,7 @@
 const url = "https://jsonplaceholder.typicode.com/todos/";
 const urluser="https://jsonplaceholder.typicode.com/users";
 
+
 export async function getTask(){
     try {
         const response = await fetch(url);
@@ -20,5 +21,3 @@ export async function getUser(){
         console.error(error);
       }
 }
-
-

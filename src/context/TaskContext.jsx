@@ -9,6 +9,8 @@ export function TaskContextProvider(props){
     
     const [User, setUser] = useState([]);
     const [Api, setApi] = useState([]);
+    const [Id, setId ] = useState("");
+
 
 function createUser(users,citys){
     setUser([...User,{
@@ -19,12 +21,18 @@ function createUser(users,citys){
       }
     }])}
 
+
 function deleteUser(userid){
     setUser(
-        User.filter(user=>user.id!== userid))
+        User.filter(user=>user.id!==userid))
    
 }
-    
+
+function ModificarUser(theuser){
+    setUser(theuser.name)
+    setId(theuser.id)
+}
+
     useEffect(() => {
         Apis.getUser().then(setUser);
       }, []);
@@ -32,12 +40,15 @@ function deleteUser(userid){
       useEffect(() => {
         Apis.getTask().then(setApi);
       }, []);
+     
+
   return (
     <TaskContext.Provider value={{
         createUser,
         User,
         Api,
-        deleteUser
+        deleteUser,
+        ModificarUser
         }}>
         {props.children}
     </TaskContext.Provider>

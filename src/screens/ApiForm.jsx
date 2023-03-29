@@ -10,6 +10,7 @@ export const ApiForm = () => {
   const handlesubmit = (e) => {
     e.preventDefault();
     console.log(user);
+    console.log(city);
     
       createUser(user, city);
     

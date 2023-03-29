@@ -5,9 +5,6 @@ import { ApiList } from './ApiList'
 
 export const Api = () => {
   
-
-
-
   return (
     <div> 
       
@@ -15,9 +12,7 @@ export const Api = () => {
           <h1 className="m-4">agregar usuario </h1>
           <ApiForm/>
         </div>
-      
-      <ApiList/>
-      
+          <ApiList/>
     </div>
   )
 }
