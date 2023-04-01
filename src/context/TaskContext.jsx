@@ -1,7 +1,6 @@
 import React from 'react'
 import { createContext, useState,useEffect } from 'react'
 import * as Apis from "../screens/FunApi";
-
 export const TaskContext = createContext()
 
 
@@ -9,9 +8,8 @@ export function TaskContextProvider(props){
     
     const [User, setUser] = useState([]);
     const [Api, setApi] = useState([]);
-    const [Id, setId ] = useState("");
 
-
+  
 function createUser(users,citys){
     setUser([...User,{
       id:User.length+1,
@@ -28,10 +26,12 @@ function deleteUser(userid){
    
 }
 
-function ModificarUser(theuser){
-    setUser(theuser.name)
-    setId(theuser.id)
+function ModificarUser(newuser,userid){
+  setUser(User.map((users) => (users.id === userid ? { ...users, name:newuser.nombre , address:{
+    city:newuser.correo
+  }} : users))); 
 }
+
 
     useEffect(() => {
         Apis.getUser().then(setUser);
