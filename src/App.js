@@ -13,7 +13,7 @@ import  Login  from "./screens/Login";
 function App() {
  
   return (
-    <div>
+    <div >
       <Router>
         <NavBar></NavBar>
         <Routes>
