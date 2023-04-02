@@ -1,0 +1,18 @@
+.btn{
+    margin-left: 3%;
+}
+@media (max-width: 680px) {
+    .btn{
+        display: block;
+        justify-content: center;
+    }
+    #modificar{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .ali{
+        margin: 0 auto;
+        text-align: center;
+        margin-top:2 auto;
+    }
+  }

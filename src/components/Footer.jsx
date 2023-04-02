@@ -2,13 +2,9 @@ import React from "react";
 import {} from "@fortawesome/free-solid-svg-icons";
 import { AiOutlineMail, AiFillGithub } from "react-icons/ai";
 import { BsPhoneFill } from "react-icons/bs";
-import './Footer.css';
 export const Footer = () => {
   return (
-    <div
-      className="fo container-fluid  bg-secondary bg-gradient text-white d-flex justify-content-end"
-      style={{ minHeight: "12rm" }}
-    >
+  
       <div className="container pt-3 pb-3">
         <div className="row ">
           <div className="col-6  ">
@@ -36,7 +32,7 @@ export const Footer = () => {
           <div className="col"></div>
         </div>
       </div>
-    </div>
+
   );
 };
 

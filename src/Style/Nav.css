@@ -1,0 +1,9 @@
+.navbar-nav li:hover a,
+.navbar-nav.active {
+  background-color: gray;
+}
+
+.containerNav {
+  width: 100%;
+  height: 20%;
+}

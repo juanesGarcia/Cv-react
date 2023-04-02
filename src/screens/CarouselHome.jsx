@@ -1,10 +1,10 @@
-import React from "react";
-import './Home.css';
 
-export const Home = () => {
+import React from 'react'
+import '../Style/Carouselh.css'
+export const CarouselHome = () => {
   return (
-    <div>
-      <div className="pro">
+    <>
+    <div className="pro">
         <div
           id="carouselExampleIndicators"
           className="carousel slide"
@@ -34,14 +34,14 @@ export const Home = () => {
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y29kZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" className="img d-block w-100" alt="..." />
+              <img className="d-block w-100" src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y29kZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="..." />
             </div>
             <div className="carousel-item">
-              <img src="https://images.unsplash.com/photo-1592424002053-21f369ad7fdb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fGNvZGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" className="img d-block w-100" alt="..." />
+              <img className="d-block w-100" src="https://images.unsplash.com/photo-1592424002053-21f369ad7fdb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fGNvZGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"  alt="..." />
             </div>
             <div className="carousel-item">
             
-              <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWF0aHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" className="img d-block w-100" alt="..." />
+              <img className="d-block w-100" src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWF0aHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="..." />
             </div>
           </div>
           <button
@@ -64,6 +64,6 @@ export const Home = () => {
           </button>
         </div>
       </div>
-    </div>
-  );
-};
+    </>
+  )
+}

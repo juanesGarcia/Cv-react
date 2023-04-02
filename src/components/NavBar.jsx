@@ -1,9 +1,10 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 import { AiFillHome } from "react-icons/ai";
+import '../Style/Nav.css'
 export const NavBar = () => {
   return (
-    <div>
+    <div className="containerNav">
       <nav className="navbar navbar-expand-lg navbar-light bg-secondary">
   <div className="container-fluid">
     <NavLink className="navbar-brand text-white" to="/"><AiFillHome className='mb-1 ms-3 me-1'></AiFillHome> Inicio</NavLink>
@@ -13,10 +14,10 @@ export const NavBar = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <NavLink className="nav-link text-white" aria-current="page" to="/About">About me</NavLink>
+          <NavLink className="nav-link text-white" aria-current="page" to="/About" >About me</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link text-white" to="/Contact">Contacto</NavLink>
+          <NavLink className="nav-link text-white" to="/Contact" >Contacto</NavLink>
         </li>
         <li className="nav-item">
           <NavLink className="nav-link text-white" aria-current="page" to="/Api">Uso Api</NavLink>

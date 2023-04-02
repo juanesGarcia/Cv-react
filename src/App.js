@@ -1,4 +1,4 @@
-import "./App.css";
+import "../src/Style/App.css";
 import NavBar from "./components/NavBar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { About } from "./screens/About";
@@ -26,7 +26,8 @@ function App() {
           <Route path="*" element={<Error/>}></Route>
         </Routes>
       </Router>
-      <Footer></Footer>
+      <div className="fo container-fluid  bg-secondary bg-gradient text-white d-flex align-items-end"><Footer></Footer></div>
+      
     </div>
   );
 }

@@ -1,0 +1,13 @@
+.imgp{
+    border-radius: 50%;
+    height: 100%;
+}
+
+.card {
+    background-color:#B7D3DF;
+    border-radius: 5%;
+}
+
+.btn::after:hover{
+    background-color: blue;
+}
