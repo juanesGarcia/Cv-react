@@ -8,8 +8,11 @@ export const Api = () => {
   return (
     <div className='containep'> 
       
-      <div className='form mt-4 pt-4 me-4'>
-          <h1 className="m-4">agregar usuario </h1>
+      <div className='form mt-4 pt-4 me-4 '>
+            <div className='titlea '> 
+              <h1 className="">agregar usuario </h1>
+            </div>
+          
           <ApiForm/>
         </div>
           <ApiList/>

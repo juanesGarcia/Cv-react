@@ -2,7 +2,7 @@ import React from 'react'
 import {useContext} from 'react'
 import {TaskContext} from "../context/TaskContext";
 import { UserCard } from './UserCard';
-
+import '../Style/TablesS.css'
 export const UserL = () => {
     const {User} = useContext(TaskContext);
     if(User.length===0){
@@ -10,8 +10,8 @@ export const UserL = () => {
       }
     
   return (
-    <div className="table-responsive">
-          <h1 className=" pt-5 ">lista de usuarios</h1>
+    <div className="tl table-responsive">
+          <h1 className=" pt-5 pb-4 text-center">lista de usuarios</h1>
           <table className="table">
             <thead>
               <tr>

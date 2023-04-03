@@ -6,8 +6,10 @@
 .form{
   margin-left: 30%;
 }
-
-
+.titlea{
+  margin-left: 15%;
+  padding-bottom: 5%;
+}
 
 @media (max-width: 500px) {
     .form{
