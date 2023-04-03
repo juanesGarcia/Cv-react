@@ -1,0 +1,10 @@
+export const textp='Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus facilis dignissimos, neque dicta excepturi hic soluta minus iusto impedit illo aperiam, itaque magnam aliquam, saepe maxime eveniet nam est.';
+export const but="go to proyect";
+export const titlep="Proyecto Parqueadero"
+export const titlefit="Proyecto Fitness"
+export const titleapi="Proyecto Uso de Api-Rest"
+export const titlevi="Proyecto Videosfera"
+export const urlp="https://github.com/juanesGarcia/proyecto_parqueadero"
+export const urlfit="https://github.com/juanesGarcia/admin-final"
+export const urlvi="https://videosferas.com/"
+export const urlapi="https://github.com/juanesGarcia/MongoDBAtlas-Express-"

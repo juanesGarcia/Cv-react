@@ -1,58 +1,38 @@
 import React from "react";
-import imgme from "../img/yo.jpeg";
-
+import "../Style/About.css";
+import img from '../img/WhatsApp Image 2023-04-02 at 7.16.03 PM (1).jpeg';
 export const About = () => {
   return (
-    <div className="container">
-      <h3 className="text-center text-uppercase py-4 mt-4">About me</h3>
-      <div className="text-center fst-italic pt-1">
-        <p>
-          Estudiante de ingeniería de sistemas, destacado por mi actitud
-          servicial, por mi desempeño académico en la Universidad del Magdalena,
-          me caracterizo por ser una persona que aprende rápidamente y se
-          esfuerza por poner en práctica el conocimiento en áreas como la
-          programación conociendo todas las estructuras de datos necesarias para
-          desempeñar cualquier proyecto. Me encuentro en búsqueda de mi primera
-          oportunidad laboral para demostrar mis capacidades. El desarrollo de
-          software y todos sus componentes me apasionan, por lo anterior quiero
-          iniciar mi carrera laboral y profesional. Capacitado para desarrollo
-          de software en lenguajes como Java, JavaScript, Python, C, HTML, CSS y
-          manejo de base de datos con MySQL o PostgreSQL.
-        </p>  
-      </div>
-      <div className="container-cer ms-3 pb-4">
-        <h5 className="ms-4 mb-4">Certificaciones: </h5>
-      <ul>
-            <li>Diseño Web con HTML5 y CSS – junio 2020</li>
-            <li>Bootstrap 4 - junio 2020</li>
-            <li>Python 3 - junio 2022</li>
-            <li>Curso profesional de GIT y GITHUB –junio 2020</li>
-            <li>Comandos en Linux – junio 2022 </li>
-            <li>Introducción a la seguridad cibernética –junio 2020 </li>
-            <li>Fundamentos de Ingeniería de Software - mayo 2020</li>
-          </ul>
-      </div>
-
-      <div className="container-card pb-4 mt-4 " width={200} height={200}>
-        <div className="row  mt-4 mb-4 ">
-          <div className="col-md-4 mx-auto">
-            <div className="card mt-4">
-              <div className="mx-auto " >
-                  <img
-                src={imgme}
-                alt=""
-                className="img-fluid img-thumbnail"
-              />
-              </div>
-              <h1 className="card-title border bordert-dark">Juan Esteban Cubillos Garcia</h1>
-              <p className="card-text text-secondary">
-                Estudiante de la Universidad del Magdalena
-                Santa Marta, Magdalena, Colombia
-              </p>
-            </div>
-          </div>
+    <>
+      <div className="containerab">
+        <div className="title">
+          <h3 className=" text-center text-uppercase  pt-4">Hoja de vida </h3>
+        </div>
+        <div className="ing text-center fst-italic pt-1 pe-4">
+          <p>
+            Programador Full-Stack, destacado por mi actitud servicial, por mi
+            desempeño académico en la Universidad del Magdalena. Me caracterizo
+            por ser una persona que aprende rápidamente y se esfuerza por poner
+            en práctica el conocimiento en el área de programación, conociendo
+            todas las estructuras de datos necesarias para desempeñar cualquier
+            proyecto. El desarrollo de software y todos sus componentes me
+            apasionan. Capacitado para desarrollo de software en lenguajes como
+            JavaScript (react js), Jest js, Python, HTML, CSS y manejo de base
+            de datos SQL Y NOSQL con MySQL, PostgreSQL o Mongo db, manejando el
+            marco de gestión de proyectos de metodología ágil Scrum y a su vez
+            siguiendo las prácticas de la cultura DevOps.
+          </p>
         </div>
       </div>
-    </div>
+      <div className="containerimg row gutter">
+        <div className="col">
+          <img src={img} className="imgj" alt="..." />
+        </div>
+        <div className="info col">
+          <h2>juan esteban cubillos </h2>
+          <h2>Desarrollador Full-stack</h2>
+        </div>
+      </div>
+    </>
   );
 };

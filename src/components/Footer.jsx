@@ -5,7 +5,7 @@ import { BsPhoneFill } from "react-icons/bs";
 export const Footer = () => {
   return (
   
-      <div className="container pt-3 pb-3">
+      <div className="container pt-3 pb-4">
         <div className="row ">
           <div className="col-6  ">
           <div className="mb-2 d-line ps-4 d-flex align-items-start">
@@ -23,7 +23,7 @@ export const Footer = () => {
                 juanesGarcia
               </a>
             </div>
-            <div className="mb-2 ps-4 d-flex align-items-start">
+            <div className=" ps-4 d-flex align-items-start">
               <BsPhoneFill className="me-2 mt-1"></BsPhoneFill>
               +57 3186699925
             </div>

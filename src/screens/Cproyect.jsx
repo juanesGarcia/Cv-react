@@ -1,24 +1,24 @@
 import React from 'react'
 import '../Style/CproyectStyle.css'
-import { Link } from 'react-router-dom';
-export const Cproyect = ({img}) => {
+
+export const Cproyect = ({...props}) => {
   
   return (
     <>
         <div className="card mb-3 ms-4">
         <div className="row g-0">
           <div className="col-md-4">
-            <img src={img} className="imgp img-fluid rounded-start" alt="..." />
+            <img src={props.img} className="imgp img-fluid rounded-start" alt="..." />
           </div>
           <div className="col-md-8">
             <div className="card-body ">
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">{props.title}</h5>
               <p className="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+               {props.info}
               </p>
-              <Link to="#" class="btn btn-secondary ">Go somewhere</Link>
+              <div class="text-center">
+              <a href={props.li} class="btn btn-secondary ">{props.but}</a>
+              </div>
             </div>
           </div>
         </div>
