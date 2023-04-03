@@ -10,10 +10,8 @@ export const UserL = () => {
       }
     
   return (
-    <>
-   
-        <div className="ms-4 ">
-          <h1 className="ps-4 pt-5 ms-4">lista de usuarios</h1>
+    <div className="table-responsive">
+          <h1 className=" pt-5 ">lista de usuarios</h1>
           <table className="table">
             <thead>
               <tr>
@@ -29,8 +27,8 @@ export const UserL = () => {
               ))}
             </tbody>
           </table>
-        </div>
-    </>
+     
+    </div>
    
   )
 }

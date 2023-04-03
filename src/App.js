@@ -7,7 +7,7 @@ import { Home } from "./screens/Home";
 import { Api } from "./screens/Api";
 import { Error } from "./screens/Error";
 import  Footer from "./components/Footer";
-import  Login  from "./screens/Login";
+
 
 
 function App() {
@@ -22,7 +22,6 @@ function App() {
           <Route exact path="/About" element={<About />}></Route>
           <Route exact path="/Contact" element={<Contact />}></Route>
           <Route exact path="/Api" element={<Api/>}></Route>
-          <Route exact path="/Login" element={<Login/>}></Route>
           <Route path="*" element={<Error/>}></Route>
         </Routes>
       </Router>

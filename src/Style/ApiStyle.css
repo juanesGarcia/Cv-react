@@ -1,0 +1,17 @@
+.containerp{
+    width: 125%;
+ 
+}
+
+.form{
+  margin-left: 30%;
+}
+
+
+
+@media (max-width: 500px) {
+    .form{
+        margin-left: 15%;
+    }
+    
+  }

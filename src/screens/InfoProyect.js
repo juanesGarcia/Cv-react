@@ -1,5 +1,5 @@
-export const textp='Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem accusamus facilis dignissimos, neque dicta excepturi hic soluta minus iusto impedit illo aperiam, itaque magnam aliquam, saepe maxime eveniet nam est.';
-export const but="go to proyect";
+export const textp='Lorem ipsum dolor sit amet ';
+export const but="ver";
 export const titlep="Proyecto Parqueadero"
 export const titlefit="Proyecto Fitness"
 export const titleapi="Proyecto Uso de Api-Rest"

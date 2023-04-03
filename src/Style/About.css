@@ -1,14 +1,14 @@
 .containerab{
     width: 100%;
-    background-color: #7895B2;;
+    background-color:#EFF5F5;;
 }
 
 .imgj{
-    width: 200px;
-    height: 200px;
+    width: 35%;
+    height: 40%;
     border-radius: 60%;
-    margin-top: 10%;
-    margin-left:60%;
+    margin-top: 5%;
+    margin-left:50%;
     margin-bottom: 10%;
     border: solid 1px black;
     
@@ -37,8 +37,29 @@
     margin-top: 5%;
 }
 @media (max-width: 700px) {
+
     .containerimg{
         background-color: #898AA6;
         width: 103%;
-    } 
+    }
+
+    .imgj{
+        width: 70%;
+        height: 60%;
+        border-radius: 60%;
+        margin-top: 5%;
+        margin-left:40%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+        border: solid 1px black;
+        
+    }
+    .ing{
+        margin-left: 20%;
+        margin-top: 5%;
+        margin-right: 5%;
+        padding-bottom: 10%;
+    }
+    
+     
 }

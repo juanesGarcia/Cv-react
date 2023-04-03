@@ -16,8 +16,8 @@ export const Cproyect = ({...props}) => {
               <p className="card-text">
                {props.info}
               </p>
-              <div class="text-center">
-              <a href={props.li} class="btn btn-secondary ">{props.but}</a>
+              <div className="text-center">
+              <a href={props.li} className="btn btn-secondary ">{props.but}</a>
               </div>
             </div>
           </div>

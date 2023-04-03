@@ -1,0 +1,18 @@
+.te{
+    width: 60%;
+}
+.bp{
+    margin-left: 10%;
+}
+
+.but{
+    width: 40%;
+}
+
+
+@media (max-width: 680px) {
+    .bp{
+        margin-left: 3%;
+    }
+    
+  }

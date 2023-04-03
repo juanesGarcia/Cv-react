@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { useState } from "react";
 import {TaskContext} from "../context/TaskContext";
+import '../Style/ApiFormStyle.css'
 
 export const ApiForm = () => {
   const [user, setUser] = useState("");
@@ -18,9 +19,9 @@ export const ApiForm = () => {
     setUser("");
   };
   return (
-    <div className="mb-4 pb-2 border-bottom border-Dark border- Solid">
+    <div className="mb-4 ms-4 pb-2 border-bottom border-Dark border- Solid">
       <form onSubmit={handlesubmit}>
-        <div className=" m-4">
+        <div className="te me-4">
           <label htmlFor="exampleFormControlInput1" className="form-label">
             Digite el nombre de usuario:
           </label>
@@ -36,7 +37,7 @@ export const ApiForm = () => {
             autoFocus
           />
         </div>
-        <div className="ms-4 mp-4 mt-4 me-4">
+        <div className="te mt-4 mb-4">
           <label htmlFor="exampleFormControlTextarea1" className="form-label">
             Cuidad:
           </label>
@@ -51,9 +52,12 @@ export const ApiForm = () => {
             }}
           ></input>
         </div>
-        <button type="submit" className="btn btn-dark m-4">
+        <div className="bp">
+           <button type="submit" className="but ms-4 btn btn-dark">
           Enviar
         </button>
+        </div>
+       
       </form>
     </div>
   );

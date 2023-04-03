@@ -12,11 +12,11 @@ export const ApiL = () => {
     }
   return (
     <>
-    <h1 className="ps-4 pt-5">
+    <h1 className=" pt-5">
        
           lista de tareas
         </h1>
-        <div className="m-4 ">
+        <div className="">
           <table className="table ">
             <thead>
               <tr>
