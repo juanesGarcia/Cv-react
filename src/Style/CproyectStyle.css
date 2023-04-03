@@ -1,13 +1,28 @@
 .imgp{
     border-radius: 50%;
-    height: 50%;
+    height: 100%;
 }
 
 .card {
     background-color:#B7D3DF;
     border-radius: 5%;
+    margin-bottom: auto;
 }
 
-.btn::after:hover{
-    background-color: blue;
+.pro{
+    background-color: #7895B2;
 }
+
+@media (max-width: 680px) {
+    .del{
+        margin-left: 3%;
+    }
+    .imgp{
+        border-radius: 50%;
+        height: 100%;
+        width: 100%;
+    }
+    .btn{
+        width: 80%;
+    }
+  }

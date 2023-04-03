@@ -5,7 +5,7 @@ export const Cproyect = ({...props}) => {
   
   return (
     <>
-        <div className="card mb-3 ms-4">
+        <div className="card  ">
         <div className="row g-0">
           <div className="col-md-4">
             <img src={props.img} className="imgp img-fluid rounded-start" alt="..." />

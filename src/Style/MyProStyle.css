@@ -1,4 +1,25 @@
-.pro{
+.pro2{
     background-color: #7895B2;
 }
-  
+.conc{
+    margin: 5%;
+    width: 50%;
+}
+.containerc{
+    height: 100%;
+    padding-bottom: 4%;
+}
+
+@media (max-width: 1150px) {
+    .pro2 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+      .conc{
+        width: 90%;
+        margin-right: 5%;
+    }
+ 
+}

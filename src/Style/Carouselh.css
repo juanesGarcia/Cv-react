@@ -1,3 +1,20 @@
-.carousel-inner{
-    height: 100%;
+
+.carouselt{
+    height: 600px;
+}
+
+.imgcaro{
+    height: 600px;
+}
+
+
+@media (max-width: 800px){
+    .carouselt{
+        height: 400px;
+    }
+    
+    .imgcaro{
+        height: 400px;
+    }
+    
 }

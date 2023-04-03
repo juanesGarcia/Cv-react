@@ -58,7 +58,7 @@ export const UserCard = ({user}) => {
                   <th className='ali'> 
                     <div>
                     <button type="button" className="del btn btn-dark mb-3"onClick={()=>deleteUser(user.id)}>eliminar </button>
-                      <button type="button" className="btn btn-dark mb-3 ms-2" onClick={()=>mostrarFormulario()} >modificar</button>
+                      <button type="button" className="btn btn-dark mb-3 ms-2 me-4" onClick={()=>mostrarFormulario()} >modificar</button>
                     </div>
                       
         
