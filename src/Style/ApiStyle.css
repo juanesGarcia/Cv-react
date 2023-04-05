@@ -13,7 +13,11 @@
 
 @media (max-width: 500px) {
     .form{
-        margin-left: 15%;
+        margin-left: 25%;
+    }
+    .titlea{
+      margin-left: 0%;
+      padding-bottom: 5%;
     }
     
   }

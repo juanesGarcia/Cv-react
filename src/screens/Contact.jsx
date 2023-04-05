@@ -71,7 +71,7 @@ export const Contact = () => {
               <label htmlFor="floatingTextarea">Comments</label>
             </div>
           </div>
-          <div className="pb-4 mt-4 d-grid">
+          <div className="but pb-4 mt-4 ">
             <button type="submit" className="btn btn-secondary">
               Enviar
             </button>
