@@ -4,7 +4,9 @@
   padding-top: 5%;
 
 }
-
+.titlep{
+  font-size: 500%;
+}
 @media (max-width: 680px) {
   .pro {
     display: block;

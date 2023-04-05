@@ -1,12 +1,33 @@
 import React from "react";
 import "../Style/About.css";
-import img from '../img/WhatsApp Image 2023-04-02 at 7.16.03 PM (1).jpeg';
+import img from "../img/logo192.png";
+
 export const About = () => {
   return (
     <>
+      <div className="containerimg row gutter">
+        <div className="col">
+          <img src={img} className="imgj" alt="..." />
+        </div>
+        <div className="info col">
+          <h1 className="hola">Hola</h1>
+          <h2 className="li">Un poco de mí </h2>
+          <h5>Juan Esteban Cubillos Garcia</h5>
+          <h5>Desarrollador Full-stack</h5>
+          <div className="d-flex text-center mb-4">
+  
+            <div className="ref ms-4 mt-4" onClick={()=> window.location.href = 'https://github.com/juanesGarcia'}>
+            <h5 className="tex">Github</h5>
+            </div>
+            <div className="ref ms-4 mt-4" onClick={()=> window.location.href = 'https://drive.google.com/file/d/1fFjuRZ5B9Ew2KGS4zO-LEt0u-g7YgHKD/view'}>
+            <h5 className="tex">Cv</h5>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="containerab">
         <div className="title">
-          <h3 className=" text-center text-uppercase  pt-4">Hoja de vida </h3>
+          <h3 className="hola2 text-center text-uppercase  pt-4">Hoja de vida </h3>
         </div>
         <div className="ing text-center fst-italic pt-1 pe-4">
           <p>
@@ -22,15 +43,6 @@ export const About = () => {
             marco de gestión de proyectos de metodología ágil Scrum y a su vez
             siguiendo las prácticas de la cultura DevOps.
           </p>
-        </div>
-      </div>
-      <div className="containerimg row gutter">
-        <div className="col">
-          <img src={img} className="imgj" alt="..." />
-        </div>
-        <div className="info col">
-          <h2>juan esteban cubillos </h2>
-          <h2>Desarrollador Full-stack</h2>
         </div>
       </div>
     </>

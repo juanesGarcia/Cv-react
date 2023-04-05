@@ -56,10 +56,10 @@ export const UserCard = ({user}) => {
                   <th>{user.name}</th>
                   <th>{user.address.city}</th>
                   <th className='ali'> 
-                    <div>
+                    
                     <button type="button" className="del btn btn-dark mb-3"onClick={()=>deleteUser(user.id)}>eliminar </button>
-                      <button type="button" className="btn btn-dark mb-3 ms-2 me-4" onClick={()=>mostrarFormulario()} >modificar</button>
-                    </div>
+                      <button type="button" className="del btn btn-dark mb-3 ms-2 me-4" onClick={()=>mostrarFormulario()} >modificar</button>
+                    
                       
         
                     

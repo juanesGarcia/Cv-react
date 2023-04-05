@@ -2,15 +2,24 @@
     border-radius: 50%;
     height: 100%;
 }
-
+#pad{
+    padding-top: 5%;
+}
 .card {
-    background-color:#B7D3DF;
+    background-color:#CDFCF6;
     border-radius: 5%;
     margin-bottom: auto;
+    height: 100%;
+    width: 100%;
 }
-
+.card:hover{
+    background-color: #6096B4;
+}
+.fo{
+    font-weight: bolder;
+}
 .pro{
-    background-color: #7895B2;
+    background-color: #F3F3F3;
 }
 
 @media (max-width: 680px) {

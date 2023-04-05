@@ -5,6 +5,10 @@
     margin-left: 10%;
 }
 
+.but:hover{
+    background-color: black;
+}
+
 .but{
     width: 40%;
 }

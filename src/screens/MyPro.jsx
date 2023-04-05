@@ -8,9 +8,8 @@ import "../Style/MyProStyle.css";
 import * as pr from "./InfoProyect";
 
 export const MyPro = () => {
-
   return (
-    <div className="containerc">
+    <div className="containerc" >
      <div className="pro2 d-flex ">
       <div className="conc flex-fill mb-4 mt-4 ">      
         <Cproyect img={par} info={pr.textp} but={pr.but} title={pr.titlep} li={pr.urlp}></Cproyect>
@@ -20,8 +19,8 @@ export const MyPro = () => {
       </div>
     </div>
     <div className="pro2 d-flex ">
-      <div className="conc flex-fill mb-4 mt-4 ">      
-        <Cproyect img={imgapi} but={pr.but} info={pr.textapi} title={pr.titleapi} li={pr.urlapi}></Cproyect>
+      <div className="conc flex-fill mb-4 mt-4 pb-4">      
+        <Cproyect img={imgapi} but={pr.but} info={pr.textapi} title={pr.titleapi} li={pr.urlapi} p={pr.p}></Cproyect>
       </div>
       <div className="conc flex-fill mb-4 mt-4 pb-4 ">
         <Cproyect img={videos}  but={pr.but} info={pr.textvi} title={pr.titlevi} li={pr.urlvi}></Cproyect>

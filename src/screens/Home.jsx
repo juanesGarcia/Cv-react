@@ -9,8 +9,8 @@ export const Home = () => {
       <div className="carousel">
           <CarouselHome></CarouselHome>
       </div>
-      <div className="pro"> 
-          <h1 className="titlep d-flex justify-content-center pt-4 mb-4">My Proyects</h1>
+      <div className="pro" id="pro"> 
+          <h1 className="titlep d-flex justify-content-center pt-4 mb-4" >My Proyects</h1>
          <MyPro></MyPro>
       </div>
       
