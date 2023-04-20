@@ -14,7 +14,7 @@ export const Api = () => {
       
       <div className='form mt-4 pt-4 me-4' data-aos="zoom-in-up">
             <div className='titlea '> 
-              <h1 className="">agregar usuario </h1>
+              <h1 className="">Agregar usuario </h1>
             </div>
           
           <ApiForm/>

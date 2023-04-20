@@ -18,7 +18,7 @@ export const ApiL = () => {
     <>
     <h1 className=" pt-5  pb-4 text-center" data-aos="zoom-in-up">
        
-          lista de tareas
+          Lista de tareas
         </h1>
         <div className="tl" data-aos="zoom-in-up">
           <table className="table ">

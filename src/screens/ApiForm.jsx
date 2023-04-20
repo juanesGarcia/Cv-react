@@ -21,7 +21,7 @@ export const ApiForm = () => {
   return (
     <div className="mb-4 ms-4 pb-2 border-bottom border-Dark border- Solid">
       <form onSubmit={handlesubmit}>
-        <div className="te pe-4">
+        <div className="te ">
           <label htmlFor="exampleFormControlInput1" className="form-label">
             Digite el nombre de usuario:
           </label>
