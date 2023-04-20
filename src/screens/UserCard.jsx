@@ -12,7 +12,7 @@ export const UserCard = ({user}) => {
         html:
           '<div class="form-group">' +
           '<label for="nombre">Nombre:</label>' +
-          '<input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingresa tu nombre">' +
+          '<input type="text" class="form-control" id="nombre" name="nombre" placeholder="{nombre}">' +
           '</div>' +
           '<div class="form-group">' +
           '<label for="text">Cuidad:</label>' +

@@ -1,8 +1,5 @@
 .te{
-    width: 60%;
-}
-.bp{
-    margin-left: 10%;
+    width: 80%;
 }
 
 .but:hover{
@@ -16,7 +13,7 @@
 
 @media (max-width: 680px) {
     .bp{
-        margin-left: 3%;
+        padding-left: 3%;
     }
     
   }

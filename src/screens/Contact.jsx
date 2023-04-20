@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import'../Style/ContactStyle.css'
+import "aos/dist/aos.css"
+import AOS from "aos"
 export const Contact = () => {
+  useEffect(() => {
+    AOS.init({duration:1500,once:true});
+  }, [])
+  
   return (
-    <div className="container mb-4">
+    <div className="container mb-4 pt-4" data-aos="zoom-in-up">
       <h3 className="text-center text-uppercase py-4 mt-4">Contact</h3>
       <div className=" mx-auto fst-italic pt-1">
         <form>

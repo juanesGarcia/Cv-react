@@ -1,10 +1,15 @@
 .inp:hover{
     color: black;
 }
-
+.titlec{
+    padding-top: 20%;
+}
 .inp2{
     font-size: 130%;
     margin-bottom: 2%;
+}
+.container{
+    margin-top: 3%;
 }
 
 @media (max-width: 680px) {

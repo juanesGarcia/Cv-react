@@ -6,13 +6,13 @@ import '../Style/Home.css'
 export const Home = () => {
   return (
     <>
-      <div className="carousel">
+      <div className="carousel pt-4">
           <CarouselHome></CarouselHome>
       </div>
-      <div className="pro" id="pro"> 
-          <h1 className="titlep d-flex justify-content-center pt-4 mb-4" >My Proyects</h1>
+      <section className="pro" id="pro"> 
+          <h1 className="titlep d-flex justify-content-center pt-4 mb-4" >My Projects</h1>
          <MyPro></MyPro>
-      </div>
+      </section>
       
      
     </>

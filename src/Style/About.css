@@ -2,7 +2,8 @@
     width: 100%;
     background-color:#CDFCF6;
     box-shadow: 0 0 20px 8px rgba(0, 0, 0, 0.3); 
-    padding-bottom: 7%;
+    padding-bottom: 10%;
+    padding-top: 3%;
 }
 .ref{
     width: 100px;
@@ -31,7 +32,7 @@
 }
 .imgj{
     width: 75%;
-    height: 80%;
+    height: 77%;
     border-radius: 60%;
     margin-top: 5%;
     margin-left:40%;
@@ -59,8 +60,8 @@
 .containerimg{
     background-color:#F3F3F3;
     width: 101%;
-    padding-top: 5%;
-    padding-bottom: 3%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 .title{
      padding-top: 8%;
@@ -81,7 +82,7 @@
         width: 80%;
         height: 80%;
         border-radius: 60%;
-        margin-top: 5%;
+        margin-top: 20%;
         margin-bottom: 2%;
         border: solid 1px black;
         margin-left: 12%;

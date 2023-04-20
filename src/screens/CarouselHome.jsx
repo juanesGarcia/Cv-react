@@ -4,7 +4,7 @@ import '../Style/Carouselh.css'
 export const CarouselHome = () => {
   return (
     <>
-    <div className="proc">
+    <div className="proc pt-4">
         <div
           id="carouselExampleIndicators"
           className="carouselt carousel slide"

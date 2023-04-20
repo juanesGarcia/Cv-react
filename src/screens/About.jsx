@@ -1,11 +1,19 @@
-import React from "react";
+import React,{ useEffect } from "react";
 import "../Style/About.css";
-import img from "../img/logo192.png";
+import img from "../img/me.jpeg";
+import "aos/dist/aos.css"
+import AOS from "aos" 
 
 export const About = () => {
+  
+  useEffect(() => {
+
+    AOS.init({duration:1500});
+    AOS.refresh();
+  }, [])
   return (
     <>
-      <div className="containerimg row gutter">
+      <div className="containerimg row gutter" data-aos="zoom-in-up" >
         <div className="col">
           <img src={img} className="imgj" alt="..." />
         </div>
@@ -16,16 +24,16 @@ export const About = () => {
           <h5>Desarrollador Full-stack</h5>
           <div className="d-flex text-center mb-4">
   
-            <div className="ref ms-4 mt-4" onClick={()=> window.location.href = 'https://github.com/juanesGarcia'}>
+            <div className="ref ms-4 mt-4" onClick={()=> window.location.href = 'https://github.com/juanesGarcia'} data-aos="flip-left">
             <h5 className="tex">Github</h5>
             </div>
-            <div className="ref ms-4 mt-4" onClick={()=> window.location.href = 'https://drive.google.com/file/d/1fFjuRZ5B9Ew2KGS4zO-LEt0u-g7YgHKD/view'}>
+            <div className="ref ms-4 mt-4" onClick={()=> window.location.href = 'https://drive.google.com/file/d/1fFjuRZ5B9Ew2KGS4zO-LEt0u-g7YgHKD/view'}data-aos="flip-left">
             <h5 className="tex">Cv</h5>
             </div>
           </div>
         </div>
       </div>
-      <div className="containerab">
+      <div className="containerab"data-aos="zoom-in-up" >
         <div className="title">
           <h3 className="hola2 text-center text-uppercase  pt-4">Hoja de vida </h3>
         </div>

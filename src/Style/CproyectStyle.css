@@ -2,18 +2,23 @@
     border-radius: 50%;
     height: 100%;
 }
+.imgc{
+    border-radius: 50%;
+    height: 100%;
+}
+
 #pad{
     padding-top: 5%;
 }
 .card {
-    background-color:#CDFCF6;
+    background-color:#898AA6;
     border-radius: 5%;
     margin-bottom: auto;
     height: 100%;
     width: 100%;
 }
 .card:hover{
-    background-color: #6096B4;
+    background-color: #BCCEF8;
 }
 .fo{
     font-weight: bolder;
