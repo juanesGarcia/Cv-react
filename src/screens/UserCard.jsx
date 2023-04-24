@@ -12,11 +12,11 @@ export const UserCard = ({user}) => {
         html:
           '<div class="form-group">' +
           '<label for="nombre">Nombre:</label>' +
-          '<input type="text" class="form-control" id="nombre" name="nombre" placeholder="{nombre}">' +
+          '<input type="text" class="form-control" id="nombre" name="nombre" placeholder="ingresa tu nuevo nombre">' +
           '</div>' +
           '<div class="form-group">' +
           '<label for="text">Cuidad:</label>' +
-          '<input type="text" class="form-control" id="cuidad" name="cuidad" placeholder="Ingresa tu cuidad">' +
+          '<input type="text" class="form-control" id="cuidad" name="cuidad" placeholder="Ingresa tu nueva cuidad">' +
           '</div>' ,
         showCancelButton: true,
         confirmButtonText: 'Modificar',
