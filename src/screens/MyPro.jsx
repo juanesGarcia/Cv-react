@@ -12,7 +12,7 @@ import AOS from "aos"
 export const MyPro = () => {
 
   useEffect(() => {
-    AOS.init({duration:1500,once:true});
+    AOS.init({duration:1500});
   }, [])
   
   return (

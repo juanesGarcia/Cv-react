@@ -9,7 +9,6 @@ export const About = () => {
   useEffect(() => {
 
     AOS.init({duration:1500});
-    AOS.refresh();
   }, [])
   return (
     <>

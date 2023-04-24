@@ -11,7 +11,7 @@ export const UserL = () => {
     
   return (
     <div className="tl table-responsive">
-          <h1 className=" pt-5 pb-4 text-center">Lista de usuarios</h1>
+          <h1 className="pb-4 text-center">Lista de usuarios</h1>
           <table className="table">
             <thead>
               <tr>
