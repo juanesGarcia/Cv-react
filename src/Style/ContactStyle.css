@@ -11,9 +11,3 @@
 .container{
     margin-top: 3%;
 }
-
-@media (max-width: 680px) {
-    .but{
-        margin-left:35%;
-    }
-  }

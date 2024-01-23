@@ -26,29 +26,29 @@ export const About = () => {
             <div className="ref ms-4 mt-4" onClick={()=> window.location.href = 'https://github.com/juanesGarcia'} data-aos="flip-left">
             <h5 className="tex">Github</h5>
             </div>
-            <div className="ref ms-4 mt-4" onClick={()=> window.location.href = 'https://drive.google.com/file/d/1fFjuRZ5B9Ew2KGS4zO-LEt0u-g7YgHKD/view'}data-aos="flip-left">
+            <div className="ref ms-4 mt-4" onClick={()=> window.location.href = 'https://drive.google.com/file/d/1fFjuRZ5B9Ew2KGS4zO-LEt0u-g7YgHKD/view?usp=sharing'}data-aos="flip-left">
             <h5 className="tex">Cv</h5>
             </div>
           </div>
         </div>
       </div>
       <div className="containerab"data-aos="zoom-in-up" >
-        <div className="title">
-          <h3 className="hola2 text-center text-uppercase  pt-4">Hoja de vida </h3>
-        </div>
         <div className="ing text-center fst-italic pt-1 pe-4">
           <p>
-            Programador Full-Stack, destacado por mi actitud servicial, por mi
-            desempeño académico en la Universidad del Magdalena. Me caracterizo
-            por ser una persona que aprende rápidamente y se esfuerza por poner
-            en práctica el conocimiento en el área de programación, conociendo
-            todas las estructuras de datos necesarias para desempeñar cualquier
-            proyecto. El desarrollo de software y todos sus componentes me
-            apasionan. Capacitado para desarrollo de software en lenguajes como
-            JavaScript (react js), Jest js, Python, HTML, CSS y manejo de base
-            de datos SQL Y NOSQL con MySQL, PostgreSQL o Mongo db, manejando el
-            marco de gestión de proyectos de metodología ágil Scrum y a su vez
-            siguiendo las prácticas de la cultura DevOps.
+          Desarrollador web con actitud servicial y destacado desempeño académico en la Universidad del Magdalena.
+Apasionado por el desarrollo de software y capacitado en lenguajes como JavaScript (React.js), TypeScript,
+Redux Toolkit, Jest.js, Python, HTML y CSS. Poseo experiencia en el manejo de bases de datos SQL y NoSQL,
+como MySQL, PostgreSQL y MongoDB, así como en la extracción de información de estas. He creado API
+REST con Node.js (Express) y he utilizado frameworks como React para consumir estas API REST. Además,
+implemento el uso de Docker en mis proyectos. Estoy familiarizado con la metodología ágil Scrum y las prácticas
+de la cultura DevOps.
+Destaco por mi capacidad para aprender rápidamente y aplicar mis conocimientos en proyectos reales. He
+desarrollado una variedad de proyectos, entre los que se incluyen una página web interactiva para hacer
+ejercicio, un sistema de gestión de parqueadero y una aplicación para consumir API REST. Estos proyectos se
+encuentran disponibles en mi portafolio web: https://juan-cv27.netlify.app/.
+Mi objetivo profesional es adquirir experiencia práctica y fortalecer mis habilidades técnicas en un entorno
+dinámico. Busco oportunidades que me permitan contribuir al éxito de la empresa mientras sigo desarrollando
+mis habilidades en el campo del desarrollo de software.
           </p>
         </div>
       </div>

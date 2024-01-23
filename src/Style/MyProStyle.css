@@ -4,11 +4,13 @@
 .conc{
     margin: 5%;
     width: 50%;
+    font-size: 12px !important;
 }
 .containerc{
     height: 100%;
     padding-bottom: 4%;
 }
+
 
 @media (max-width: 1150px) {
     .pro2 {

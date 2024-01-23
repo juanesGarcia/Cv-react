@@ -19,7 +19,7 @@ export const ApiForm = () => {
     setUser("");
   };
   return (
-    <div className="mb-4 ms-4 pb-2 border-bottom border-Dark border- Solid">
+    <div className="containerApi mb-4 ms-4 pb-2 border-bottom border-Dark border- Solid">
       <form onSubmit={handlesubmit}>
         <div className="te ">
           <label htmlFor="exampleFormControlInput1" className="form-label">

@@ -9,10 +9,10 @@ export const Footer = () => {
       <div className="container pt-3 pb-4">
         <div className="row ">
           <div className="col-6  ">
-          <div className="mb-2 ps-2 d-line d-flex align-items-start">
+          <div className="mb-2 ps-2 d-line d-flex ">
                 <h3>Contact</h3>
             </div>
-            <div className="mb-2 d-flex align-items-start">
+            <div className=" d-flex">
               <AiOutlineMail className="me-2 mt-1"></AiOutlineMail>
                 
                 <h5 className="inp">juanesgym2018@gmail.com</h5>

@@ -1,16 +1,13 @@
 import React from "react";
-import { CarouselHome } from "./CarouselHome";
 import { MyPro } from "./MyPro";
 import '../Style/Home.css'
 
 export const Home = () => {
   return (
     <>
-      <div className="carousel pt-4">
-          <CarouselHome></CarouselHome>
-      </div>
+     
       <section className="pro" id="pro"> 
-          <h1 className="titlep d-flex justify-content-center pt-4 mb-4" >My Projects</h1>
+          <h1 className="titlep d-flex justify-content-center pt-4 mb-4" >Mis Proyectos</h1>
          <MyPro></MyPro>
       </section>
       

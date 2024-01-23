@@ -1,7 +1,7 @@
 export const textp='Este proyecto tiene como funcion ver donde y cuantas ubicaciones tienen  disponibles los parqueaderos de la universidad del magdalena utilizando las tecnologias de html, css, php, booostrap, js con su base de datos en mysql y con un arquitectura mvc';
 export const textfit='Este proyecto tiene como funcion tener una guia personal de ejercicio y alimentación aún estamos mejorandolo, esta hecho con las tecnologias html, css, php, booostrap, js con su base de datos en mysql y con un arquitectura mvc ';
 export const textapi='En este proyecto se ve el uso de una Api-Rest con un stack MERN creando el Api con mongodb y express, recibiendo este Api-Rest con react utlizando un arquitectura de cliente/servidor';
-export const textvi=' Es una pagina para que los estudiantes de cine y audiovisules de la universidad del magdalena tengan una plataforma para mostrar sus filmes este programa esta hecho con react, laravel, mongobd sugiendo la metodología de desarrollo Devops y con una arquitectura de microserviicios';
+export const textvi='Explora mi plataforma diseñada para conectar a entusiastas del tatuaje con talentosos tatuadores. Utilizando tecnologías como JavaScript (React), CSS, Bootstrap, Uiverse, Redux (frontend) y Node.js (Express), Postgres (backend), he creado un espacio interactivo. Ofrezco un sistema de gestión de imágenes para perfiles, un mapa interactivo para encontrar tatuadores locales y funciones de inicio de sesión y registro para una experiencia personalizada. ¡Descubre la manera más fácil de encontrar tu tatuaje perfecto';
 export const but="go to proyect";
 export const titlep="Proyecto Parqueadero"
 export const titlefit="Proyecto Fitness"
@@ -9,6 +9,6 @@ export const titleapi="Proyecto Uso de Api-Rest"
 export const titlevi="Proyecto Videosfera"
 export const urlp="https://github.com/juanesGarcia/proyecto_parqueadero"
 export const urlfit="https://github.com/juanesGarcia/admin-final"
-export const urlvi="https://videosferas.com/"
+export const urlvi="https://tattopro.com/"
 export const urlapi="https://github.com/juanesGarcia/MongoDBAtlas-Express-"
 export const p="pad"
