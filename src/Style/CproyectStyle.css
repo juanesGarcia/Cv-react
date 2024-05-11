@@ -4,7 +4,7 @@
 }
 .imgc{
     border-radius: 50%;
-    height: 100%;
+    height: 330px;
 }
 
 #pad{
@@ -14,8 +14,12 @@
     background-color:#898AA6;
     border-radius: 5%;
     margin-bottom: auto;
-    height: 100%;
+    height: 330px;
     width: 100%;
+}
+
+.card-text{
+    margin-top: 5%;
 }
 .card:hover{
     background-color: #BCCEF8;
@@ -27,16 +31,20 @@
     background-color: #F3F3F3;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 800px) {
     .del{
         margin-left: 3%;
     }
     .imgp{
         border-radius: 50%;
-        height: 100%;
         width: 100%;
     }
     .btn{
         width: 80%;
     }
+    .card {
+        height: 100%;
+        width: 100%;
+    }
+    
   }

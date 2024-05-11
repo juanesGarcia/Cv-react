@@ -19,7 +19,7 @@ export const MyPro = () => {
     <div className="containerc" >
      <div className="pro2 d-flex ">
       <div className="conc flex-fill mb-4 mt-4 " data-aos="zoom-in-up">      
-        <Cproyect img={par} info={pr.textp} but={pr.but} title={pr.titlep} li={pr.urlp}></Cproyect>
+      <Cproyect img={logofinal}  but={pr.but} info={pr.textvi} title={pr.titlevi} li={pr.urlvi} ></Cproyect>
       </div>
       <div className="conc flex-fill mb-4 mt-4 " data-aos="zoom-in-up">
         <Cproyect  img={fit} info={pr.textfit} but={pr.but} title={pr.titlefit} li={pr.urlfit}></Cproyect>
@@ -30,7 +30,7 @@ export const MyPro = () => {
         <Cproyect img={imgapi} but={pr.but} info={pr.textapi} title={pr.titleapi} li={pr.urlapi} p={pr.p}></Cproyect>
       </div>
       <div className="conc flex-fill mb-4 mt-4 pb-4 " data-aos="zoom-in-up" >
-        <Cproyect img={logofinal}  but={pr.but} info={pr.textvi} title={pr.titlevi} li={pr.urlvi} ></Cproyect>
+        <Cproyect img={par} info={pr.textp} but={pr.but} title={pr.titlep} li={pr.urlp}></Cproyect>
       </div>
     </div>
     </div>
