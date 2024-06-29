@@ -11,9 +11,6 @@
 }
 
 .container{
-     width: 200vh !important;
-     background-color: aliceblue;
-    color: black;
-
+    width: 100%;
+    background-color: aliceblue;
 }
-   

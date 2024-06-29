@@ -1,16 +1,11 @@
 .containerab{
     width: 100%;
     box-shadow: 0 0 20px 8px rgba(0, 0, 0, 0.3); 
-    padding-bottom: 10%;
-    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-top: 2%;
     background-color: rgb(30, 30, 32);
 }
 
-.containerabout{
-    background-image: url("../img/logofinal.jpg");
-    background-size: cover;
-      background-position: center;
-}
 .ref{
     width: 100px;
     height: 100px;
@@ -49,6 +44,7 @@
 .info{
     margin-left: 9%;
     margin-top: 70%;
+    color: antiquewhite;
 
 }
 
@@ -65,12 +61,13 @@
   }
 
 .containerimg{
-    width: 101%;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    background-image: url("../img/Default_A_futuristic_digital_landscape_depicted_in_vibrant_col_0.jpg");
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 0%;
+    background-image: url("../img/aboutme.jpg");
     background-size: cover;
       background-position: center;
+    
 }
 .title{
      padding-top: 8%;
@@ -89,7 +86,7 @@
 
     .imgj{
         width: 80%;
-        height: 80%;
+        height: 70%;
         border-radius: 60%;
         margin-top: 20%;
         margin-bottom: 2%;
@@ -104,13 +101,24 @@
     }
     .containerimg{
         display: block;
+        padding-bottom: 5%;
+        padding-top: 10%;
     }
     .info{
         padding-left: 20%;
-        margin-top: 5%;
+        margin-top: 2%;
         margin-left: 0%;
+        color: aliceblue;
     
     }
-    
+    .me{
+        margin-top: 0%;
+    }
+
+    .containerab{
+        padding-top: 5%;
+        background-color: rgb(30, 30, 32);
+    }
+
      
 }

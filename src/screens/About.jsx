@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "../Style/About.css";
-import img from "../img/me.jpeg";
+import img from "../img/mi.jpg";
 import "aos/dist/aos.css";
 import AOS from "aos";
 
@@ -9,7 +9,7 @@ export const About = () => {
     AOS.init({ duration: 1500 });
   }, []);
   return (
-    <>
+    <div className="containerabout">
       <div className="containerimg row gutter" data-aos="zoom-in-up">
         <div className="col">
           <img src={img} className="imgj" alt="..." />
@@ -17,8 +17,11 @@ export const About = () => {
         <div className="info col">
           <h1 className="hola">Hola</h1>
           <h2 className="li">Un poco de mí </h2>
-          <h5>Juan Esteban Cubillos Garcia</h5>
-          <h5>Desarrollador Full-stack</h5>
+          <div className="me">
+              <h5>Juan Esteban Cubillos Garcia</h5>
+              <h5> Desarrollador Full-stack</h5>
+          </div>
+     
           <div className="d-flex text-center mb-4">
             <div
               className="ref ms-4 mt-4"
@@ -37,7 +40,7 @@ export const About = () => {
               }
               data-aos="flip-left"
             >
-              <h5 className="tex">Cv</h5>
+              <h5 className="tex">Hv</h5>
             </div>
           </div>
         </div>
@@ -59,6 +62,6 @@ export const About = () => {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 };
