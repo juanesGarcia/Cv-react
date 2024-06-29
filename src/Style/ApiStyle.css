@@ -17,9 +17,11 @@
   padding-left: 25%;
 }
 .titlea{
-  padding-left: 20%;
+  display: flex;
+  justify-content: center;
   padding-bottom: 5%;
   padding-top: 10%;
+  margin-right: 25%;
 }
 
 @media (max-width: 500px) {
@@ -27,9 +29,10 @@
         padding-left: 2%;
     }
     .titlea{
-      
-      margin-left: 0%;
-      padding-bottom: 5%;
+      display: flex;
+      justify-content: center;
+      margin-right: 0%;
+      margin-left: 5%;
     }
     
   }

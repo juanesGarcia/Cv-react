@@ -12,9 +12,9 @@ export const Api = () => {
   return (
     <div className='containep'> 
       
-      <div className='form mt-4 pt-4 me-4' data-aos="zoom-in-up">
-            <div className='titlea '> 
-              <h1 className="">Agregar usuario </h1>
+      <div className='form mt-4 pt-4 ' data-aos="zoom-in-up">
+            <div className='titlea'> 
+              <h1 className="agregar">Agregar usuario </h1>
             </div>
           
           <ApiForm/>
