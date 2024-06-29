@@ -24,7 +24,7 @@ function App() {
           <Route path="*" element={<Error/>}></Route>
         </Routes>
       </Router>
-      <div className="fo container-fluid  bg-secondary bg-gradient text-white d-flex align-items-end"><Footer></Footer></div>
+      <Footer></Footer>
       
     </div>
   );

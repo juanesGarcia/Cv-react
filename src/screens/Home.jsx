@@ -4,14 +4,13 @@ import '../Style/Home.css'
 
 export const Home = () => {
   return (
-    <>
+    <div className="containermain">
      
-      <section className="pro" id="pro"> 
-          <h1 className="titlep d-flex justify-content-center pt-4 mb-4" >Mis Proyectos</h1>
+      <div className="pro" id="pro"> 
          <MyPro></MyPro>
-      </section>
+      </div>
       
      
-    </>
+    </div>
   );
 };

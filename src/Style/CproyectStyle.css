@@ -11,24 +11,26 @@
     padding-top: 5%;
 }
 .card {
-    background-color:#898AA6;
+    background-color: #313336c4;
     border-radius: 5%;
     margin-bottom: auto;
     height: 330px;
     width: 100%;
+    color: aliceblue;
 }
 
 .card-text{
     margin-top: 5%;
+    color: aliceblue;
 }
 .card:hover{
-    background-color: #BCCEF8;
+    background-color: rgb(30, 30, 32);
 }
 .fo{
     font-weight: bolder;
 }
 .pro{
-    background-color: #F3F3F3;
+    background-color: #242121;
 }
 
 @media (max-width: 800px) {

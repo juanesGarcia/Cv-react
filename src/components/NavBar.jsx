@@ -5,7 +5,7 @@ import '../Style/Nav.css'
 export const NavBar = () => {
   return (
     <div className="containerNav">
-      <nav className="navbar navbar-expand-lg navbar-light bg-secondary scrolling-navbar fixed-top">
+      <nav className="navbar navbar-expand-lg navbar-light bg-dark scrolling-navbar fixed-top">
   <div className="container-fluid">
     <NavLink className="navbar-brand text-white" to="/"><AiFillHome className='mb-1 ms-3 me-1'></AiFillHome> Inicio</NavLink>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

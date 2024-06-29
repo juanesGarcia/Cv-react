@@ -17,6 +17,7 @@ export const MyPro = () => {
   
   return (
     <div className="containerc" >
+      <h1 className="myproyect">Mis Proyectos</h1>
      <div className="pro2 d-flex ">
       <div className="conc flex-fill mb-4 mt-4 " data-aos="zoom-in-up">      
       <Cproyect img={logofinal}  but={pr.but} info={pr.textvi} title={pr.titlevi} li={pr.urlvi} ></Cproyect>

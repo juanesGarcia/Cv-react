@@ -6,10 +6,10 @@ import '../Style/ContactStyle.css'
 export const Footer = () => {
   return (
   
-      <div className="container pt-3 pb-4">
-        <div className="row ">
+      <div className="container  ">
+        <div >
           <div className="col-6  ">
-          <div className="mb-2 ps-2 d-line d-flex ">
+          <div className="mb-2 ps-4 d-line d-flex pt-4">
                 <h3>Contact</h3>
             </div>
             <div className=" d-flex">
@@ -20,7 +20,7 @@ export const Footer = () => {
             </div>
             <div className="mb-2 d-flex align-items-start">
               <AiFillGithub className="me-2 mt-1"></AiFillGithub>
-              <a href="https://github.com/juanesGarcia" className="inp2 text-white">
+              <a href="https://github.com/juanesGarcia" className="inp2 ">
                 juanesGarcia
               </a>
             </div>

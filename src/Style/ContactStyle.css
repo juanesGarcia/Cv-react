@@ -7,7 +7,13 @@
 .inp2{
     font-size: 130%;
     margin-bottom: 2%;
+    color: black;
 }
+
 .container{
-    margin-top: 3%;
+     width: 200vh !important;
+     background-color: aliceblue;
+    color: black;
+
 }
+   
