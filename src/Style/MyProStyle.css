@@ -22,6 +22,9 @@
 }
 
 @media (max-width: 1150px) {
+    .containerc{
+        padding-top: 18%;
+    }
     .pro2 {
         display: flex;
         flex-direction: column;
